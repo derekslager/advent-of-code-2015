@@ -1,7 +1,7 @@
 (ns advent-of-code-2015.day1
   (:require [clojure.java.io :as io]))
 
-(defn areas [sides]
+(defn move [c]
   (case c \( 1 \) -1 0))
 
 (defn run []
