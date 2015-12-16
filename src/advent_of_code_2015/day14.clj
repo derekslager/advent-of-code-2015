@@ -1,7 +1,5 @@
 (ns advent-of-code-2015.day14
-    (:require [clojure.java.io :as io]
-            [clojure.string :as str]
-            ))
+    (:require [clojure.java.io :as io]))
 
 (defn parse-input [resource]
   (let [matches (re-seq #"(\w+) can fly (\d+) km/s for (\d+) seconds, but then must rest for (\d+) seconds\." resource)]
